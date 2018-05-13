@@ -1,0 +1,12 @@
+*.pyc
+/db.sqlite3*
+*~
+virtualenv/
+.idea/
+experiments.py
+forenings_medlemmer/settings_local.py
+forenings_medlemmer/settings.py
+*_old
+/backup-*
+.DS_Store
+.vs/

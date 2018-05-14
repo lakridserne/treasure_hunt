@@ -3,12 +3,13 @@ Denne Django App er lavet på følgende måde:
 django-admin startproject treasure_hunt  
 cd treasure_hunt  
 virtualenv virtualenv/bin/activate  
+pip install -r requirements.txt  
 python manage.py startapp card  
 
 Denne kommando bruger man når man skal applie migrations (ifht. databasen)  
 python manage.py migrate
 
-Hvis man ændrer i modeller skal man lave en migration (og bagefter applie den).
+Hvis man ændrer i modeller skal man lave en migration (og bagefter applie den).  
 Det gør man med følgende kommando  
 python manage.py makemigrations
 

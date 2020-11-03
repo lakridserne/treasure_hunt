@@ -1,3 +1,5 @@
+# Dette projekt bliver ikke længere opdateret! Django versionen er ikke længere supporteret og har sikkerhedsrisici i sig - og ligeså nogle af modulerne. Lad venligst være med at bruge projektet.
+
 1. For at komme i gang skal man først lave et projekt. Det gør man sådan her:
 
 django-admin startproject treasure_hunt  
